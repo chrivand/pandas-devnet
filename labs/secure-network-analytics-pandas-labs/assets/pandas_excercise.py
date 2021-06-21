@@ -157,9 +157,9 @@ def main():
 
     # Hands-on excercise: detect above-average flows
     #TODO plot_flows(total_sent, 'sent')
-    #TODO plot_flows(total_received, 'received)
-    #TODO detect_top_outliers(df, sent_or_received="sent", number_of_outliers=5)
-    #TODO detect_top_outliers(df, sent_or_received="received", number_of_outliers=5)
+    #TODO plot_flows(total_received, 'received')
+    #TODO detect_top_outliers(df, sent_or_received='sent', number_of_outliers=5)
+    #TODO detect_top_outliers(df, sent_or_received='received', number_of_outliers=5)
     
 if __name__ == '__main__':
     main()
